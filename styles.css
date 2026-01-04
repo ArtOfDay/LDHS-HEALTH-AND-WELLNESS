@@ -62,7 +62,7 @@ body{
 	"a a c"
 	;
 	grid-gap:10px;
-	min-height:200px;
+	min-height:600px;
 	padding:0px 10px;
 	
 }
@@ -107,7 +107,7 @@ body{
 	"b b c"
 	;
 	grid-gap:10px;
-	min-height:200px;
+	min-height:600px;
 	padding:0px 10px;
 	
 }
@@ -173,4 +173,77 @@ body{
     padding: 20px 0; /* Adds spacing above and below the text */
     background-color: #f4f4f4; /* Light gray background */
     color: #333; /* Dark gray text color */
+}
+
+
+h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1px;
+
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  min-width: 800px;
+  width: 1fr;
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px;
+ }
+
+/* Contact Info Styling */
+address {
+  flex: 1 1 300px;
+  font-style: normal;
+  line-height: 1.8;
+  color: #555;
+}
+
+address a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+form {
+  flex: 2  1  400px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #444;
+}
+
+input, textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Button Styling */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
