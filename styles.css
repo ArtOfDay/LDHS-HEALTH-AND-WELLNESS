@@ -1,5 +1,5 @@
 body{
-	background:gray;
+	background:black;
 }
 
 #Omega {
@@ -15,6 +15,7 @@ body{
 	grid-gap:15px;
 	list-style-type: none;
 	padding:15px 20px;
+	background-color:#00F7FF;
 }
 
 .nav-bar a{
@@ -23,8 +24,8 @@ body{
 	font-size:25px;
 	margin: 10px 5px;
 	padding:20px;
-	background:white;
-	color:black;
+	background:#B0FFFA;
+	color:#FF0087;
 	text-align:center;
 	box-shadow:3.5px 5px;
 	border-radius:3px;
@@ -32,8 +33,8 @@ body{
 
 
 .nav-bar a:hover{
-	color:white;
-	background:black;
+	color: #913c4e ;
+	background:#00FF78;
 	box-shadow:3.5px 5px white;
 	transition:0.5s;
 }
@@ -43,61 +44,51 @@ body{
 	text-align:center;
 	min-height:100px;
 	width:100%;
-	background-color:black;
+	background-image:url("Banner.png");
 }
 
 .Title-card h1{
 	position:absolute;
 	top:0px;
 	left:110px;
-	background:black;
-	color:white;
+	color:#8666d1;
 	font-size:45px;
 }
 
 #Katawan {
 	display:grid;
-	grid-template-areas:
-	"a a b"
-	"a a c"
-	;
+	grid-template-rows:300px, 1000px,50px;
 	grid-gap:10px;
-	min-height:600px;
 	padding:0px 10px;
-	
-}
-
-#Katawan > .div1{
-	grid-area:a;
-}
-
-#Katawan > .div2{
-	grid-area:b;
-}
-
-#Katawan > .div3{
-	grid-area:c;
 }
 
 .div1{
-	background:gray;
-	color:white;
+	display:grid;
+	grid-template-columns:repeat(1, 1fr);
+	background:#B0FFFA;
+	color:#FF0087;
 	border-radius:5px;
-	text-align:center;
+	text-align:justify;
+	padding:0px 12px;
+	min-height:200px;
 }
 
 .div2{
-	background:white;
-	color:black;
+	background:#B0FFFA;
+	color:#FF0087;
 	border-radius:5px;
 	text-align:center;
 }
 
 .div3{
-	background:gray;
-	color:white;
+	background:#B0FFFA;
+	color:#FF0087;
 	border-radius:5px;
 	text-align:center;
+}
+
+div p{
+	font-size:20px;
 }
 
 #Katawan1 {
@@ -125,22 +116,22 @@ body{
 }
 
 .div4{
-	background:gray;
-	color:white;
+	background:#B0FFFA;
+	color:#FF0087;
 	border-radius:5px;
 	text-align:center;
 }
 
 .div5{
-	background:white;
-	color:black;
+	background:#B0FFFA;
+	color:#FF0087;
 	border-radius:5px;
 	text-align:center;
 }
 
 .div6{
-	background:gray;
-	color:white;
+	background:#B0FFFA;
+	color:#FF0087;
 	border-radius:5px;
 	text-align:center;
 }
@@ -153,8 +144,8 @@ body{
 }
 
 .div7{
-	background:white;
-	color:black;
+	background:#B0FFFA;
+	color:#FF0087;
 	border-radius:5px;
 	text-align:center;
 }
@@ -170,9 +161,9 @@ body{
 
 .Feeter footer {
     text-align: center;
-    padding: 20px 0; /* Adds spacing above and below the text */
-    background-color: #f4f4f4; /* Light gray background */
-    color: #333; /* Dark gray text color */
+    padding: 20px 0;
+    background-color: #B0FFFA;
+    color: #333;
 }
 
 
@@ -193,7 +184,7 @@ h2 {
   border-radius: 5px;
  }
 
-/* Contact Info Styling */
+
 address {
   flex: 1 1 300px;
   font-style: normal;
@@ -232,7 +223,7 @@ input:focus, textarea:focus {
   border-color: #007bff;
 }
 
-/* Button Styling */
+
 button {
   background-color: #007bff;
   color: white;
